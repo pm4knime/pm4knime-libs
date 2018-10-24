@@ -62,7 +62,7 @@
         <mkdir dir="${dist.dir}" />
         <mkdir dir="${dist.lib.dir}" />
 
-        <jar jarfile="${dist.dir}/${projectName}.jar" basedir="${build.dir}">
+        <jar jarfile="${dist.dir}/${projectName}.jar" basedir="${build.dir}" zip64Mode="always">
             <manifest>
                 <attribute name="Main-Class" value="${main-class}" />
             </manifest>
