@@ -47,7 +47,7 @@
 
         <mkdir dir="${dist.lib.dir}" />
 
-        <jar jarfile="${dist.lib.dir}/dependencies-all.jar">
+        <jar jarfile="${dist.lib.dir}/dependencies-all.jar" zip64Mode="always">
             <zipgroupfileset dir="${lib.dir}">
                 <include name="**/*.jar" />
             </zipgroupfileset>
@@ -78,6 +78,6 @@
     </target>
 
     <!-- Default, run this -->
-    <target name="main" depends="clean, compile, jar" />
+    <target name="main" depends="clean, ivy, resolve, compile, jar" />
 
 </project>
