@@ -78,6 +78,6 @@
     </target>
 
     <!-- Default, run this -->
-    <target name="main" depends="clean, compile, jar" />
+    <target name="main" depends="ivy, clean, resolve, compile, jar" />
 
 </project>
