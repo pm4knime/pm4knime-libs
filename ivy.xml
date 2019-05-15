@@ -6,9 +6,22 @@
     </info>
     <dependencies>
     	<dependency org="org.rapidprom" name="ProM-Framework" rev="34109" changing="false" transitive="true"/>
+    	
+    	<dependency org="org.rapidprom" name="AcceptingPetriNet" rev="6.7.125" changing="false" transitive="true"/>
     	<dependency org="org.rapidprom" name="AlphaMiner" rev="6.5.47" changing="false" transitive="true" />
-    	<dependency org="org.rapidprom" name="InductiveMiner" rev="6.7.381" changing="false" transitive="true" />
+    	<dependency org="org.rapidprom" name="TransitionSystems" rev="6.7.71" changing="false" transitive="true" />
+    	<dependency org="org.rapidprom" name="InductiveMinerDeprecated" rev="6.9.61" changing="false" transitive="true" />
+    	 	
+    	<!-- 
+    	<dependency org="org.rapidprom" name="PetriNets" rev="6.7.136" changing="false" transitive="true"/>
     	<dependency org="org.rapidprom" name="Log" rev="6.7.329" changing="false" transitive="true" />
+    	<dependency org="org.rapidprom" name="InductiveMiner" rev="6.7.381" changing="false" transitive="true" /> 
     	<dependency org="org.rapidprom" name="LogDialog" rev="6.5.42" changing="false" transitive="true" />
+    	<dependency org="org.rapidprom" name="PNetReplayer" rev="6.8.164" changing="false" transitive="true" />
+    	<dependency org="org.rapidprom" name="ILPMiner" rev="6.5.24" changing="false" transitive="true" />
+    	
+    	 -->
+    	<dependency org="org.rapidprom" name="ModelRepair" rev="6.9.61" changing="false" transitive="true" />
+    	
     </dependencies>
 </ivy-module>

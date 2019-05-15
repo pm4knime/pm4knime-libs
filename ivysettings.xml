@@ -4,6 +4,7 @@
         <url name="rapidprom" checkmodified="true">
             <ivy pattern="https://github.com/rapidprom/rapidprom-libraries/raw/4.0.2/prom/[module]-[revision]/ivy-[module]-[revision].xml" />
             <artifact pattern="https://github.com/rapidprom/rapidprom-libraries/raw/4.0.2/prom/[module]-[revision]/[module]-[revision].[ext]" />
+        	<artifact pattern="https://github.com/rapidprom/rapidprom-libraries/raw/4.0.2/prom/[module]-[revision]/[module].[ext]" />
         	<artifact pattern="https://github.com/rapidprom/rapidprom-libraries/raw/4.0.2/prom/[module]-[revision]/[artifact].[ext]" />
         </url>
         <url name="rapidprom-libs-thirdparty">
